@@ -1,0 +1,260 @@
+/*   SITE   SPECIFIC */
+/*********************/
+body{
+    margin-top: 0;
+    background-color:#3C272C ;
+    background-image: url("site-background.jpg");
+}
+
+.site-container{
+    margin: auto;
+    width: 70%;
+    background: rgba(222, 227, 227, 0.2);
+    position: relative;
+}
+
+/*   HEADER SPECIFIC   */
+/***********************/
+
+.fuckedup{
+    position: fixed;
+    width: 69.5%;
+    z-index: 101;
+}
+
+.main-header{
+    border: 1px solid black;
+    overflow: hidden;
+    position: relative;
+    background-color: #A19376;
+}
+
+.page-title,
+.page-title-text,
+.page-title-image,
+.site-nav{
+    display: inline-block;
+}
+
+.page-title,
+.site-nav{
+    width: 49%;
+}
+
+.site-nav li,
+.site-nav a{
+    white-space: nowrap;
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 19.4%;
+}
+
+.site-nav ul{
+    margin: 0 0 5px;
+}
+
+.site-nav a{
+    padding: 10% 50% 10% 30%;
+    color: bisque;
+}
+
+.site-nav li{
+    font-size: 1.3rem;
+    background-color: #b0a365;
+}
+
+.site-nav li:hover{
+    background: #d7bf22;
+}
+
+.site-nav{
+    position: absolute;
+    bottom: 0;
+}
+
+.page-title-image{
+    margin: 10px 10px 0 10px;
+}
+
+.page-title-text h3{
+    margin: 0;
+    position: absolute;
+    font-size: 1.3rem;
+    top: 5px;
+    left: 80px;
+}
+
+.site-nav li:nth-child(3) a{
+    text-decoration: underline;
+}
+
+
+/*MAIN CONTENT SPECIFIC*/
+/***********************/
+
+.main-content{
+    position: relative;
+    top: 100px;
+    margin-bottom: 100px;
+}
+
+.mc-left-col{
+    display: inline-block;
+    width: 50%;
+    max-height: 800px;
+    margin-bottom: 66vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    border-top: 3px solid #FFF8E3;
+
+    position: relative;
+}
+
+.article-text{
+    margin: 10px;
+    background-image: url("background.jpg");
+}
+
+.article-text h2,
+.article-text p{
+    margin: 10px;
+    position: relative;
+}
+
+.yt-embed{
+    margin: 30px
+}
+
+.article-img img{
+    width: 100%;
+    margin-left: 5px;
+}
+
+.mc-right-col{
+    display: inline-block;
+    margin: 10px;
+    width: 45%;
+    position: relative;
+    top: 0;
+}
+
+.article-tldr h2,
+.related-articles h2{
+    text-align: center;
+}
+
+.just-for-stylepoints{
+    background: rgb(255, 248, 227);
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.article-tldr{
+
+    line-height: 1.3rem;
+    margin: 30px;
+    border: 1px solid lightgrey;
+}
+
+.article-tldr span{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.article-tldr p,
+.article-tldr span{
+    margin: 20px 10px 10px 10px;
+    text-align: justify;
+}
+
+.related-articles ul{
+    list-style: none;
+}
+
+.rel-art-img,
+.rel-art-text{
+    display: inline-block;
+}
+
+.rel-art-img{
+    width: 30%;
+}
+
+.rel-art-img img{
+    width: 100%;
+}
+
+.rel-art-text a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: table;
+    margin-bottom: 15%;
+    margin-left: 40px;
+}
+
+.related-articles li{
+    margin-bottom: 1.5rem;
+    border: solid 1px lightgrey;
+    margin-right: 1rem;
+}
+
+/*   FOOTER SPECIFIC   */
+/***********************/
+.footer-left-col,
+.footer-right-col,
+.footer-list-col{
+    display: inline-block;
+}
+
+.footer-left-col,
+.footer-right-col{
+    width: 49.5%;
+}
+
+.footer-image img{
+    margin-top: 20px;
+    width: 30%;
+    border-radius: 20%;
+    shape-outside: circle();
+    border: 1px solid rgba(255,255,255,.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+
+.footer-contact li{
+    margin-left: 2rem;
+    display: inline-block;
+}
+
+.footer-left-col li{
+    margin-bottom: 20%;
+    margin-left: 50px
+}
+
+.footer-left-col a,
+.footer-contact a,
+.footer-contact{
+    text-decoration: none;
+    font-size: 1rem;
+    color: bisque;
+}
+
+.footer{
+    background-color: #A19376;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    bottom:0;
+    margin-bottom: 100px;
+}
+
+.footer-list-col li a,
+.footer-contact a{
+    padding: 10px;
+}
+
+.footer-list-col li:hover,
+.footer-contact li:hover{
+    background: #d7bf22
+}
+
+
